@@ -1,0 +1,133 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: Black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: Black;
+  border-bottom: 1px solid Seashell;
+  margin-top: 0;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+}
+
+header img {
+  height: 50px;
+  margin: 10px;
+}
+
+nav {
+  display: block;
+  padding-right: 10px;
+}
+
+nav a {
+  color: Seashell;
+  text-decoration: underline;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+#logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+#mission {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center
+  justify-content: center;
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.content h2, .content h4 {
+  margin: 10px;
+}
+
+#month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#locations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+.places {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 40px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+footer {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
