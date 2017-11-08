@@ -47,9 +47,11 @@ nav span {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
   height: 700px;
   width: 1200px;
+  background-color: black;
+  text-align: center;
 }
 
 .content {
@@ -61,8 +63,9 @@ nav span {
   width: 1200px;
 }
 
-.content h2, .content h4 {
+.content h2, cotent h4 {
   margin: 10px;
+  text-align: center;
 }
 
 #month {
